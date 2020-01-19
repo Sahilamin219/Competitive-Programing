@@ -1,0 +1,25 @@
+# Snail permute
+
+from itertools import permutations, groupby
+
+def next_permutation(xs):
+    """Calculate the next permutation of the sequence xs.
+    
+    Returns a pair (yn, xs'), where yn is a boolean and xs' is the 
+    next permutation. If yn is True, xs' will be the lexicographic 
+    next permutation of xs, otherwise xs' is the lexicographic 
+    smallest permutation of xs.
+    """
+    xs = tuple(xs)
+    if not xs:
+        return False, xs
+    else:
+        ps = [p for p, gp in groupby(sorted(permutations(xs)))]
+        np = len(ps)
+        ix = ps.index(xs) + 1
+        if ix == len(ps):
+            return False, ps[0]
+        else:
+            return True, ps[ix]
+
+
