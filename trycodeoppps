@@ -1,0 +1,44 @@
+#include <bits/stdc++.h>
+using namespace std;
+class store
+{
+    int number;
+    int height;
+    public:
+    store(){}
+    store(int inumber, int iheight)
+    {
+        number=inumber;
+        height=iheight;
+    }
+    void display()
+    {
+        cout<<height<<" "<<endl;
+    }
+};
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    int n;
+	    cin>>n;
+	    stack <int> s;
+	    int arr[n];
+	    cin>>arr[0];
+	    s.push(arr[0]);
+	    for(int i=1;i<n;i++){
+	        cin>>arr[i];
+	        s.push(arr[i]);
+	        if(s.top()>arr[i]){
+	            store *s1=new store(s.top(),arr[i]);
+	            store->display();
+	        }
+	        else{
+	            store *s1=new store(s.top(),-1);
+	            store->display();
+	        }
+	        cout<<endl;
+	    }
+	}
+	return 0;
+}
