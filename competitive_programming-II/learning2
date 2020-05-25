@@ -1,0 +1,81 @@
+# Created by Octave 4.2.2, Sat Oct 12 20:16:03 2019 IST <sahil@sahil-Vivo-15-ASUS>
+# name: A
+# type: scalar
+5
+
+
+# name: B
+# type: scalar
+4
+
+
+# name: a
+# type: matrix
+# rows: 1
+# columns: 3
+ 1 2 3
+
+
+# name: ans
+# type: scalar
+3
+
+
+# name: b
+# type: matrix
+# rows: 1
+# columns: 3
+ 4 5 6
+
+
+# name: c
+# type: matrix
+# rows: 1
+# columns: 6
+ 1 2 3 4 5 6
+
+
+# name: f
+# type: scalar
+31
+
+
+# name: m
+# type: matrix
+# rows: 2
+# columns: 2
+ 1 2
+ 3 4
+
+
+# name: r
+# type: matrix
+# rows: 1
+# columns: 4
+ 1 2 3 4
+
+
+# name: s
+# type: range
+# base, limit, increment
+1 9 2
+
+
+# name: text
+# type: string
+# elements: 1
+# length: 12
+hello octave
+
+
+# name: v
+# type: matrix
+# rows: 5
+# columns: 1
+ 0.05422331467611434
+ 0.1773985078123818
+ 0.8491607209830695
+ 0.6989135665108221
+ 0.1529070582087064
+
+
