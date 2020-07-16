@@ -1,5 +1,5 @@
 /*
- * simplelook.cxx
+ * simplelook.cpp
  * 
  * Copyright 2019 sahil <sahil@sahil-Vivo-15-ASUS>
  * 
